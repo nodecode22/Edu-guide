@@ -9,7 +9,7 @@ export default function CollegeDirectory() {
   const colleges = [
     {
       id: 1,
-      name: 'Delhi University - North Campus',
+      name: 'Delhi Univerity - North Campus',
       location: 'Delhi',
       type: 'Government',
       rating: 4.8,
