@@ -1,4 +1,5 @@
 {
+  "homepage": "https://nodecode22.github.io/Edu-guide",
   "name": "vite-react-typescript-starter",
   "private": true,
   "version": "0.0.0",
@@ -6,6 +7,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
